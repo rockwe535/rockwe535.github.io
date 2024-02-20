@@ -38,6 +38,22 @@ $(function () {
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
+    
+    createPlatform(100, 500, 100, 10);
+    createPlatform(200, 400, 100, 10);
+    createPlatform(300, 300, 100, 10);
+    createPlatform(400, 200, 100, 10);
+    createPlatform(500, 100, 100, 10);
+    createPlatform(50, 500, 200, 10);
+    createPlatform(900, 650, 100, 10);
+    createPlatform(100, 600, 200, 10);
+    createCollectable("database", 400, 100,1); 
+    createCollectable("grace", 500, 60);
+    
+
+
+
+
 
     // TODO 1
     // Create platforms
