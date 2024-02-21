@@ -39,18 +39,20 @@ $(function () {
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
     
-    createPlatform(100, 500, 100, 10);
+    
     createPlatform(200, 400, 100, 10);
     createPlatform(300, 300, 100, 10);
     createPlatform(400, 200, 100, 10);
     createPlatform(500, 100, 100, 10);
     createPlatform(50, 500, 200, 10);
-    createPlatform(900, 650, 100, 10);
+    createPlatform(750, 400, 100, 10);
     createPlatform(100, 600, 200, 10);
-    createCollectable("database", 400, 100,1); 
+    createPlatform(1000, 500, 100, 10);
+    createCollectable("steve", 1000,450,0);
+    createCollectable("database", 400, 100,); 
     createCollectable("grace", 500, 60);
-    
-
+    createCannon("top", 200, 800,50, 50, 50);
+    createCannon("top", 775, 500, 50, 50, 50);
 
 
 

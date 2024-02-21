@@ -19,7 +19,7 @@ const player = {
   x: 50,
   y: 500,
   speedX: 0,
-  speedY: 0,;
+  speedY: 0,
   width: undefined,
   height: undefined,
   onGround: false,
