@@ -75,6 +75,7 @@ li {
 }
 #portfolio li:hover {
    background: #eee;
+   
 }
 
 #portfolio a {
@@ -118,7 +119,7 @@ p {
 
    #all-contents {
      height: 100ch;
-     margin: none;
+     align-items: center;
    }
 
    a {
@@ -126,7 +127,7 @@ p {
    }
 
    .sidebar {
-     margin-right: 0px;
+     margin-right: 10px;
      justify-content: center;
      align-items: center;
    }
