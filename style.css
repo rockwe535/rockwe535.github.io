@@ -98,7 +98,7 @@ li {
     margin: 25px;
  }
 
-sponsive web design */
+/* responsive web design */
 @media screen and (min-width: 120px) and (max-width: 1080px) {
    main {
      height: 100ch;
@@ -120,7 +120,7 @@ sponsive web design */
 
    #all-contents {
      height: 100ch;
-     align-items: center;
+     margin: none;
    }
 
    a {
@@ -128,28 +128,22 @@ sponsive web design */
    }
 
    .sidebar {
-     margin-right: 10px;
+     margin-right: 0px;
      justify-content: center;
      align-items: center;
    }
 
    .sidebar-img {
      width: 100%;
-     align-items: center
    }
 
    p,
    li {
      font-size: 24px;
-     margin: 25px;
    }
 
-}
    .content {
      align-content: center;
      justify-content: center;
    }
-#home p {
-   border-width:1px solid;
 }
- 
