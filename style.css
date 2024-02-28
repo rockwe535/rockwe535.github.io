@@ -56,31 +56,34 @@ body {
  /* portfolio styles */
  .content h1 {
    color: rgb(0, 0, 0);
+   margin-left: 500px;
 }
 
 #portfolio {
    list-style-type: none;
-   padding-left: 0;
+
+   
 }
 
 #portfolio li {
    background: #fff;
    padding: 10px;
-   border-radius: 10px;
+   border-radius:10px;
    margin-bottom: 10px;
+   margin-left: 400px;
    color:#000000;
 }
 li {
    color:black;
 }
 #portfolio li:hover {
-   background: #eee;
-   
+   background: #e1dcdc;
+   margin-left: 1000px;
 }
 
 #portfolio a {
    text-decoration: none;
-   color: #070000;
+   color: #070000
 }
  
  
@@ -134,6 +137,7 @@ p {
 
    .sidebar-img {
      width: 100%;
+     align-items: center
    }
 
    p,
