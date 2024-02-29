@@ -17,7 +17,7 @@ body {
     display: flex;
     padding: 20px;
     margin-bottom: 20px;
-    align-items:center;
+    
     
  }
  h1 {
@@ -42,11 +42,11 @@ body {
  
  /* main container area beneath menu */
  main {
-    background: rgb(255, 255, 255);
+    background: rgb(246, 246, 246);
     display: flex;
-    margin-left: 150px;
     width: 1000px;
-    align-self: center;
+    
+
  }
  .sidebar {
     margin-right: 25px;
@@ -97,6 +97,7 @@ li {
  #interests {
     border: 4px rgb(14, 35, 223) ridge;
     padding: 10px ;
+    margin-left: 10px;
  }
  h2, h3 {
     margin: 25px;
@@ -134,7 +135,7 @@ li {
    .sidebar {
      margin-right: 0px;
      justify-content: center;
-     align-items: center;
+   
    }
 
    .sidebar-img {
