@@ -17,6 +17,8 @@ body {
     display: flex;
     padding: 20px;
     margin-bottom: 20px;
+    align-items:center;
+    
  }
  h1 {
     display: flex;
@@ -30,7 +32,7 @@ body {
  }
  .nav-li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 20px;
  }
  a {
     text-decoration: none;
@@ -42,14 +44,16 @@ body {
  main {
     background: rgb(255, 255, 255);
     display: flex;
-    margin-left: 10px;
-    width: px;
+    margin-left: 150px;
+    width: 1000px;
+    align-self: center;
  }
  .sidebar {
     margin-right: 25px;
  }
  .sidebar-img {
     width: 200px;
+
  }
  .content {
     flex: 1;
@@ -58,7 +62,7 @@ body {
  /* portfolio styles */
  .content h1 {
    color: rgb(0, 0, 0);
-   margin-left: 500px;
+   margin-left: 50px;
 }
 
 #portfolio {
@@ -145,5 +149,9 @@ li {
    .content {
      align-content: center;
      justify-content: center;
+   }
+   .img2 {
+width: 1000px;
+
    }
 }
