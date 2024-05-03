@@ -15,7 +15,7 @@ var init = function (window) {
         window.opspark.game = {};
         var game = window.opspark.game;
         
-        ////////////////////////////////////////////////////////////
+       // TODO 1 ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM SETUP ////////////////////////////
         ////////////////////////////////////////////////////////////
         
@@ -41,7 +41,7 @@ var init = function (window) {
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
         
-        /* 
+        /* o
         This Function is called 60 times/second producing 60 frames/second.
         In each frame, for every circle, it should redraw that circle
         and check to see if it has drifted off the screen.         
@@ -49,8 +49,9 @@ var init = function (window) {
         function update() {
             // TODO 4 : Update the circle's position //
          
-         for(var i = 0; i <  101; i++) {
-            physikz.updatePosition(circle);
+         for(var i = 0; i <  circles.length; i++) {
+            physikz.updatePosition(circles[i]);
+            game.checkCirclePosition(circles[i])
          }
   
 
