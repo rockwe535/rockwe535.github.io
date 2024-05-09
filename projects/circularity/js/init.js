@@ -41,7 +41,7 @@ var init = function (window) {
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
         
-        /* o
+        /* 
         This Function is called 60 times/second producing 60 frames/second.
         In each frame, for every circle, it should redraw that circle
         and check to see if it has drifted off the screen.         
@@ -76,11 +76,6 @@ var init = function (window) {
 
             // if the circle has gone past the RIGHT side of the screen then place it on the LEFT
             
-            
-            // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-           
-        
-
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
             if ( circle.x > canvas.width ) {
